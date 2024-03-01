@@ -1,0 +1,16 @@
+:root {
+    --color-white: "#fff";
+    --color-black: "#000";
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h-content{
+    min-height: calc(100vh - 320px);
+    height: 100%;
+}
+.img {
+    width: 100%;
+    height: auto;
+}

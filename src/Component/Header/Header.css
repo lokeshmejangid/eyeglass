@@ -1,0 +1,46 @@
+:root {
+    --color-white: "#fff";
+    --color-black: "#000";
+}
+.header{
+    height: 120px;
+}
+.header .headerTop{
+    height: 60px;
+    padding: 0em 1em;
+    display: flex;
+    align-items: center;
+}
+.header .headerBottom{
+    background-color: #F4F4F4;
+    height: 60px;
+}
+.header .eyelogo{
+    height: 40px;
+    width: 60px;
+}
+.header .headerBottom .list{
+    display: flex;
+    justify-content: space-between;
+}
+.header .searchBox {
+    display: flex;
+    justify-content: center;
+}
+.header .input {
+    position: relative;
+    width: 80%;
+}
+.header input {
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.5em 2.5em 0.5em 0.5em;
+}
+.header .searchIcon {
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    color: gray;
+}
