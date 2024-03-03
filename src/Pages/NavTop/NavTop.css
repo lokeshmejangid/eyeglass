@@ -8,4 +8,20 @@
 .nav a {
     color: black;
     text-decoration: none;
+    font-family: sans-serif;
+}
+
+.cart-icon .circle{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 10px;
+    background: #4596F3;
+    border-radius: 50%;
+    color: white;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -12,9 +12,9 @@ const NavBottom = () => {
       <NavLink to='eyelens'>Eye Lens</NavLink>
       <NavLink to='sunglass'>Sun Glasses</NavLink>
       <NavLink to='contactlens'>Contact Lens</NavLink>
-      <NavLink to='contactlens'>Contact Lens</NavLink>
-      <NavLink to='contactlens'>Contact Lens</NavLink>
-      <NavLink to='contactlens'>Contact Lens</NavLink>
+      <NavLink to='computerglass'>Computer Glasses</NavLink>
+      <NavLink to='eyetest'>Eye Test</NavLink>
+      <NavLink to='teleoptometry'>Tele Optometry</NavLink>
     </Grid>
   )
 }

@@ -13,6 +13,9 @@ import SunGlass from './Pages/SunGlass'
 import ContactLens from './Pages/ContactLens'
 import Kids from './Pages/Kids';
 import Home from './Pages/Home';
+import ComputerGlass from './Pages/ComputerGlass';
+import EyeTest from './Pages/EyeTest';
+import TeleOptometry from './Pages/TeleOptometry';
 
 const App = () => {
   return (
@@ -31,6 +34,9 @@ const App = () => {
             <Route path='/eyelens' element={<EyeLens />} />
             <Route path='/sunglass' element={<SunGlass />} />
             <Route path='/contactlens' element={<ContactLens />} />
+            <Route path='/computerglass' element={<ComputerGlass />} />
+            <Route path='/eyetest' element={<EyeTest />} />
+            <Route path='/teleoptometry' element={<TeleOptometry />} />
             <Route />
           </Routes>
         </div>

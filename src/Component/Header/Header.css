@@ -10,14 +10,15 @@
     padding: 0em 1em;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .header .headerBottom{
-    background-color: #F4F4F4;
+    background-color: #BBAB8C;
     height: 60px;
 }
 .header .eyelogo{
-    height: 40px;
-    width: 60px;
+    width: 90px;
+    height: 50px;
 }
 .header .headerBottom .list{
     display: flex;
@@ -37,9 +38,10 @@
     border: 1px solid gray;
     border-radius: 5px;
     padding: 0.5em 2.5em 0.5em 0.5em;
+    background-color: #FDFDFD;
 }
 .header .searchIcon {
-    position: absolute;
+    position: absolute; 
     right: 8px;
     top: 20%;
     color: gray;

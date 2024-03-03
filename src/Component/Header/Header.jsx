@@ -18,12 +18,12 @@ const Header = () => {
     return (
         <Grid container spacing={0} className='header'>
             <Grid item xs={12} container spacing={0} className='headerTop'>
-                <Grid item xs={3} onClick={handleHomePage} className='icon'>
-                    <img src="./assets/img/logo.png" alt="logo" className='eyelogo' />
+                <Grid item xs={3} onClick={handleHomePage} className='align-item-center'>
+                    <img src="./assets/img/logo.png" alt="logo" className='eyelogo icon' />
                 </Grid>
                 <Grid item xs={6} className='searchBox'>
                     <div className="input">
-                        <input type="text" placeholder='Search' />
+                        <input type="text" placeholder='Search for optical...' />
                         <SearchIcon className='searchIcon' />
                     </div>
                 </Grid>
